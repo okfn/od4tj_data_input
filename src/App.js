@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
+import { Grid, Navbar, Jumbotron } from 'react-bootstrap';
 import OD4TJWizard from './OD4TJWizard';
 
 export default class App extends Component {
