@@ -4,10 +4,7 @@ import PropTypes from 'prop-types';
 import './PDFViewer.css';
 
 export default class PDFViewer extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+  state = {};
 
   onDocumentComplete = (pages) => {
     this.setState({ page: 1, pages });
