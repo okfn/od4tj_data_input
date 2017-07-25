@@ -3,7 +3,7 @@ import PDF from 'react-pdf-js';
 import PropTypes from 'prop-types';
 import './PDFViewer.css';
 
-class PDFViewer extends Component {
+export default class PDFViewer extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -92,5 +92,3 @@ class PDFViewer extends Component {
 PDFViewer.propTypes = {
   file: PropTypes.string.isRequired,
 };
-
-export default PDFViewer;

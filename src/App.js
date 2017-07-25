@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
-import PDFViewer from './PDFViewer';
+import OD4TJWizard from './OD4TJWizard';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div>
@@ -20,16 +20,7 @@ class App extends Component {
           <Grid>
             <h1>Welcome to React</h1>
             <p>
-              <Button
-                bsStyle="success"
-                bsSize="large"
-                href="http://react-bootstrap.github.io/components.html"
-                target="_blank">
-                View React Bootstrap Docs
-              </Button>
-            </p>
-            <p>
-              <PDFViewer file="2014_barclays_country_snapshot.pdf" />
+              <OD4TJWizard />
             </p>
           </Grid>
         </Jumbotron>
@@ -37,5 +28,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

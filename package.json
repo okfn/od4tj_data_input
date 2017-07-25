@@ -9,7 +9,8 @@
     "react-bootstrap": "^0.31.1",
     "react-dom": "^15.6.1",
     "react-pdf-js": "^1.0.37",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.10",
+    "react-stepzilla": "^4.6.2"
   },
   "scripts": {
     "start": "react-scripts start",
