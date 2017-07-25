@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
+import PDFViewer from './PDFViewer';
 
 class App extends Component {
   render() {
@@ -26,6 +27,9 @@ class App extends Component {
                 target="_blank">
                 View React Bootstrap Docs
               </Button>
+            </p>
+            <p>
+              <PDFViewer file="2014_barclays_country_snapshot.pdf" />
             </p>
           </Grid>
         </Jumbotron>
