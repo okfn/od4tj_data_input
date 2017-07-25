@@ -62,7 +62,7 @@ export default class PDFViewer extends Component {
           {nextButton}
         </ul>
       </nav>
-      );
+    );
   }
 
   render() {
@@ -87,5 +87,8 @@ export default class PDFViewer extends Component {
 }
 
 PDFViewer.propTypes = {
-  file: PropTypes.string.isRequired,
+  file: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.object,
+  ]).isRequired,
 };

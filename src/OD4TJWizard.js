@@ -13,12 +13,6 @@ export default class OD4TJWizard extends Component {
           <PDFLoader />
         ),
       },
-      {
-        name: 'Step 2',
-        component: (
-          <div>Step 2</div>
-        ),
-      },
     ],
   };
 

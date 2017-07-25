@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PDFViewer from './PDFViewer';
+import PDFRegionSelector from './PDFRegionSelector';
 
 
 export default class PDFLoader extends Component {
@@ -14,7 +14,7 @@ export default class PDFLoader extends Component {
   renderPdfViewer = (file) => {
     if (file) {
       return (
-        <PDFViewer file={file} />
+        <PDFRegionSelector file={file} />
       )
     }
   }

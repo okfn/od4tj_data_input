@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Navbar, Jumbotron } from 'react-bootstrap';
-import OD4TJWizard from './OD4TJWizard';
+import PDFLoader from './PDFLoader';
 
 export default class App extends Component {
   render() {
@@ -18,10 +18,8 @@ export default class App extends Component {
         </Navbar>
         <Jumbotron>
           <Grid>
-            <h1>Welcome to React</h1>
-            <p>
-              <OD4TJWizard />
-            </p>
+            <h1>OD4TJ Data Input</h1>
+            <PDFLoader />
           </Grid>
         </Jumbotron>
       </div>
